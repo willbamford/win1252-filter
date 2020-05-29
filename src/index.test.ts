@@ -18,7 +18,7 @@ test("should filter out symbols", () => {
   expect(output).toEqual("");
 });
 
-test("should filter out multi-byte unicode (that is not reprented in windows-1252)", () => {
+test("should filter out multi-byte unicode (that is not represented in windows-1252)", () => {
   const input = "和製漢語";
   const output = win1252Filter(input);
   expect(output).toEqual("");
