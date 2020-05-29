@@ -1,5 +1,5 @@
 {
-  "name": "windows-1252-filter",
+  "name": "win1252-filter",
   "version": "1.0.0",
   "description": "Filters out non windows-1252 characters from a string",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "test": "jest",
     "build": "tsc"
   },
-  "repository": "git@github.com:willbamford/windows-1252-filter.git",
+  "repository": "git@github.com:willbamford/win1252-filter.git",
   "author": "Will Bamford <w.bamford@gmail.com>",
   "license": "MIT",
   "private": false,
