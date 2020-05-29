@@ -1,0 +1,26 @@
+{
+  "name": "windows-1252-filter",
+  "version": "1.0.0",
+  "description": "Filters out non windows-1252 characters from a string",
+  "main": "dist/index.js",
+  "types": "dist/types.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": "git@github.com:willbamford/windows-1252-filter.git",
+  "author": "Will Bamford <w.bamford@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {}
+}
