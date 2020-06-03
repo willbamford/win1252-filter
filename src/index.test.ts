@@ -1,5 +1,11 @@
 import { win1252Filter } from "./index";
 
+test("should not filter out sdf from simple 'Hello world' example", () => {
+  const input = "";
+  const output = win1252Filter(input);
+  expect(input).toEqual(output);
+});
+
 test("should not filter out anything from simple 'Hello world' example", () => {
   const input = "Hello world";
   const output = win1252Filter(input);
