@@ -1,6 +1,6 @@
 {
   "name": "win1252-filter",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Filters out non windows-1252 characters from a string",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

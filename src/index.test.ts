@@ -1,6 +1,6 @@
 import { win1252Filter } from "./index";
 
-test("should not filter out sdf from simple 'Hello world' example", () => {
+test("should handle empty string example", () => {
   const input = "";
   const output = win1252Filter(input);
   expect(input).toEqual(output);
