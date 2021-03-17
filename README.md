@@ -5,7 +5,7 @@ Filters out non [windows-1252](https://en.wikipedia.org/wiki/Windows-1252) chara
 ## Usage
 
 ```
-yarn install win1252-filter
+yarn add win1252-filter
 ```
 
 ```ts
